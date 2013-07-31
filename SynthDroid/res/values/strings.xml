@@ -4,5 +4,6 @@
     <string name="app_name">SynthDroid</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="str_play_bt">Play it!</string>
 
 </resources>
