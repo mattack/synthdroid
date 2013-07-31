@@ -1,11 +1,12 @@
-package com.example.synthdroid;
+package com.synthdroid;
+
+import com.synthdroid.R;
 
 import android.media.AudioFormat;
 import android.media.AudioManager;
 import android.media.AudioTrack;
 import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 
@@ -15,8 +16,8 @@ public class MainActivity extends Activity implements OnClickListener {
 		    private final int amostragem = 44000;
 		    private final int numAmostras = duracao * amostragem;
 		    private final double buffer[] = new double[numAmostras];
-		    private final double freqOfTone = 440; // hz
-		    private final double freqMod = 100; //Hz
+		    //private final double freqOfTone = 440; // hz
+		    //private final double freqMod = 100; //Hz
 
 		    private final byte vetor_audio_PCM16[] = new byte[2 * numAmostras];
 		    
@@ -101,4 +102,3 @@ public class MainActivity extends Activity implements OnClickListener {
 			}
 		}	
 
-}
